@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -17,13 +17,16 @@
 }
 .container .nav-bar #logo-container {
   margin-left: 10px;
+  color: white;
   border: solid 1px;
   height: 45px;
   margin-top: 40px;
   background-color: #3B7DCE;
-  color: white;
   padding: 5px 10px 5px 10px;
   border-bottom-left-radius: 10px;
+}
+.container .nav-bar #logo-container h1 {
+  color: white;
 }
 .container .nav-bar #logo-container .slideout {
   width: 0px;
@@ -39,15 +42,30 @@
 .container .nav-bar #button-container {
   margin-right: 10px;
 }
+.container .short {
+  margin-top: 5px;
+}
+.container .short a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.container .narrow {
+  width: 50%;
+  margin: 0 auto;
+  min-width: 500px;
+  margin-top: 50px;
+}
 .container .content {
   margin-top: 25px;
+}
+.container .content h1.light-header {
+  color: #3B7DCE;
 }
 .container .content .selector {
   width: 100%;
   max-width: 245px;
   text-align: center;
   border-radius: 10px;
-  color: #3B7DCE;
   transition-duration: 0.3s;
   box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5), 12px 12px 12px 0 rgba(0, 0, 0, 0.05);
   margin: 20px;
@@ -56,8 +74,12 @@
 .container .content .selector:hover {
   cursor: pointer;
 }
+.container .content .selector .light-header {
+  color: #3B7DCE;
+}
 .light-header {
   font-weight: lighter;
+  color: #7c7c7c;
 }
 .row {
   display: flex;
