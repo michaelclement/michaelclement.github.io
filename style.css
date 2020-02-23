@@ -57,6 +57,7 @@
 }
 .container .content {
   margin-top: 25px;
+  padding-bottom: 35px;
 }
 .container .content h1.light-header {
   color: #3B7DCE;
