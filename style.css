@@ -34,13 +34,10 @@
 .container .nav-bar #logo-container .slideout {
   width: 0px;
   overflow: hidden;
-  transition-duration: 0.4s;
-}
-.container .nav-bar #logo-container:hover .slideout {
-  width: 95px;
-}
-.container .nav-bar #logo-container:hover h1 {
-  cursor: default;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-name: expandLogo;
+  animation-duration: 1s;
 }
 .container .nav-bar #button-container {
   margin-right: 10px;
@@ -99,6 +96,17 @@
   justify-content: center;
   align-items: center;
 }
+
 #about-me {
   margin-top: 50px;
+  padding: 0px 15px 0px 15px;
+}
+#sample-content {
+  margin-top: 50px;
+}
+
+/* ------------------------------------------ */
+@keyframes expandLogo {
+  from {width: 0px;}
+  to {width: 95px;}
 }
