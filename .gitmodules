@@ -1,3 +1,6 @@
 [submodule "descending-blocks"]
 	path = descending-blocks
 	url = https://github.com/michaelclement/descending-blocks
+[submodule "typing-test"]
+	path = typing-test
+	url = https://github.com/michaelclement/typing-test.git
