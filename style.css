@@ -137,6 +137,9 @@
 #music-player-img {
   background-image: url("assets/media_player_img.png");
 }
+#tetris-img {
+  background-image: url("assets/tetris.png");
+}
 #todo-img {
   background-image: url("assets/checklist.png");
 }
