@@ -137,6 +137,9 @@
 #music-player-img {
   background-image: url("assets/media_player_img.png");
 }
+#voter-app-img {
+  background-image: url("assets/voter-app-img.png");
+}
 #tetris-img {
   background-image: url("assets/tetris.png");
 }
@@ -154,6 +157,11 @@
 }
 .portfolio-item .portfolio-item-text h1 {
   margin-top: 0px;
+}
+.external-link-ico {
+  display: inline-block;
+  margin-left: 10px;
+  transform: rotate(90deg);
 }
 
 /* ------------------------------------------ */
