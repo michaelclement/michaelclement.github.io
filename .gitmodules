@@ -4,3 +4,6 @@
 [submodule "typing-test"]
 	path = typing-test
 	url = https://github.com/michaelclement/typing-test.git
+[submodule "pdf-certificate-maker"]
+	path = pdf-certificate-maker
+	url = git@github.com:michaelclement/pdf-certificate-maker.git
